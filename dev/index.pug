@@ -1,0 +1,59 @@
+doctype
+html
+    head
+        title Vilka
+        meta(charset="UTF-8")
+        link(rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous")
+        link(href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin="anonymous")
+        link(rel="stylesheet" href="css/style.css")
+        link(rel="stylesheet" href="css/slick.css")
+        link(rel="stylesheet" href="css/slick-theme.css")
+    body
+        .content-wrapper
+            .header.conteiner
+                .row
+                    .col-md-6.col-sm-12
+                        .contacts
+                            i(class="fa fa-phone" aria-hidden="true")
+                            a(href="tel:+380987668908")
+                                span='+380987668908'
+                    .col-md-6.col-sm-12
+                        .user-room
+                            span='Вітаємо, '
+                            i(class="fa fa-smile-o" aria-hidden="true")
+                            span(class='entry')=' увійдіть в особистий кабінет'
+                .row
+                    .col-xs-12.logo-wrapper
+                        a(href='#')
+                            .logo.clearfix
+                                img(class='logo-picture pull-left' src='images/picture.jpg')
+                                .name
+                                    span(class='logo-text')='Vilka'
+                                    span(class='sub-logo-text')='Не плутати з розеткою!'
+                form(class="search")
+                    input(class="form-control mr-sm-2" type="search" placeholder="Пошук" aria-label="Search")
+                    button(class="btn btn-outline-success my-2 my-sm-0" type="submit")='Знайти'
+
+                .row.user-icons
+                    .col-sm-4.comparison
+                        i(class="fa fa-balance-scale" aria-hidden="true")
+                        span='Порівняння'
+                    .col-sm-4.desire
+                        i(class="fa fa-heart-o" aria-hidden="true")
+                        span='Бажання'
+                    .col-sm-4.basket
+                        i(class="fa fa-shopping-cart" aria-hidden="true")
+                        span='Кошик'
+
+
+
+
+
+
+
+
+        script(src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous")
+        script(src="../js/slick.js")
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous")
+        script(src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous")
+        script(src="js/main.js")

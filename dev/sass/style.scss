@@ -1,0 +1,85 @@
+@import 'mixins';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.user-room,.contacts {
+  text-align: center;
+  padding: 10px 0 10px 0;
+}
+
+.contacts a{
+  color: #dde0e3;
+  text-decoration: none;
+}
+
+.entry {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header{
+  background-color: #022b51;
+  color: #dde0e3;
+  padding:0 3% 0 3%;
+  border-bottom: #425669 solid 1px;
+}
+
+.logo-wrapper{
+  margin: auto;
+  padding: 10px;
+}
+
+.logo{
+  display: inline-block;
+  border-radius: 50px;
+  background-color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.logo img{
+  width: 60px;
+  border-radius: 50%;
+}
+
+.logo-picture{
+  padding-right: 5px;
+}
+
+.name span{
+  display: block;
+  float: left;
+}
+
+.logo-text{
+  text-transform: uppercase;
+  font-size: 30px;
+  color: #135d9e;
+  font-weight: 600;
+}
+
+.sub-logo-text{
+  color: gray;
+}
+
+.search{
+  padding: 10px 0 10px 0;
+  text-align: right;
+}
+
+.btn-outline-success{
+  background-color: #6fd165;
+  color: white;
+  box-shadow: 2px 1px 12px 0 #6fd165;
+}
+
+.comparison ,.desire ,.basket {text-align: center;cursor: pointer;}
+.comparison i,.desire i,.basket i{font-size: 40px;display: inline-block}
+.comparison span,.desire span,.basket span{display: block;}
+.comparison:hover,.desire:hover ,.basket:hover {
+  border: 2px solid white;
+}
